@@ -89,7 +89,6 @@ tour () {
 
     IFS=" " read -ra arr <<< $3
     last_index=$((${#arr[@]}-1))
-
     echo $last_index
     toplam=0
     i=0
